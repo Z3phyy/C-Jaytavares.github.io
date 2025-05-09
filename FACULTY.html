@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Philippine College of Northwestern Luzon</title>
+    <link rel="stylesheet" href="FACULTY.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="image/PCNL.png" style="height:30px; display:inline;"> Philippine College of Northwestern Luzon
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ABOUTUS.html">About Us</a></li>
+                    <li><a href="PROGRAMS.html">Programs</a></li>
+                    <li class="active"><a href="FACULTY.html">Faculty & Staff</a></li>
+                    <li><a href="ANNOUNCEMENT.html">Announcements</a></li>
+                    <li><a href="CONTACT.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#registerModal">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="loginModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control"placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">College Registration</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="program">Select Program:</label>
+                            <select class="form-control" id="program">
+                                <option>Information Technology</option>
+                                <option>Business Administration</option>
+                                <option>Accountancy</option>
+                                <option>Criminology</option>
+                                <option>Elementary Education</option>
+                                <option>Secondary Education</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="banner">
+        <img src="image/PCNL.png">
+        <h1 style="color: black;">Faculty & Staffs</h1>
+    </div>
+    
+    <div class="container">
+        <div class="content-section">
+            <h2>Meet Our Esteemed Faculty</h2>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Vincente D. Ching</h4>
+                        <p>President</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Marilou B. Guerrero</h4>
+                        <p>VP Finance</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Conrado B. Dumo</h4>
+                        <p>VP Academic Affairs</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Adela P. Orille</h4>
+                        <p>VP Administration, Human Resource Officer</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Edison L. Lacsamana</h4>
+                        <p>Cashier</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Edmun Q. Adden</h4>
+                        <p>Dean of BSA</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Nemesio F. Villamil</h4>
+                        <p>Dean of BSBA</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Janet A. Faroden</h4>
+                        <p>Dean of BSCRIM</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Edwin Fernandez</h4>
+                        <p>Dean of BEE</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Brian Rivera</h4>
+                        <p>Dean of BSIT, Dean Student Affairs</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Erina Q. Aihara</h4>
+                        <p>Library Service</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Regilda C. Beloro</h4>
+                        <p>Registrar</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Janine A. Caoile</h4>
+                        <p>Guidance Service</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="faculty-box">
+                        <img src="image/profile.jpg">
+                        <h4>Ricardo L. Ocampo JR.</h4>
+                        <p>Assistant Registrar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2025 Philippine College Northwestern Luzon. All rights reserved.</p>
+    </footer>
+</body>
+</html>

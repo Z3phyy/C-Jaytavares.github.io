@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff;
+    color: #0044cc;
+}
+.navbar {
+    background-color: #0044cc;
+    border: none;
+}
+.navbar-default .navbar-brand .navbar-default .navbar-nav li a {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand img {
+    height: 30px;
+    display: inline;
+}
+.navbar-default .navbar-nav  li a:hover {
+    background-color: #002a80;
+}
+.btn-primary {
+    background-color: #0044cc;
+    border-color: #0044cc;
+}
+.btn-primary:hover {
+    background-color: #002a80;
+    border-color: #002a80;
+}
+.modal-header {
+    background-color: #0044cc;
+    color: white;
+}
+.banner {
+    background: url('../cjong/image/home.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.8);
+    background-blend-mode: overlay;
+}
+.banner img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.content-section {
+    padding: 40px;
+}
+.content-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+footer {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}

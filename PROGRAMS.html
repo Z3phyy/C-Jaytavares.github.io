@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Philippine College of Northwestern Luzon</title>
+    <link rel="stylesheet" href="PROGRAMS.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="image/PCNL.png" style="height:30px; display:inline;"> Philippine College of Northwestern Luzon
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ABOUTUS.html">About Us</a></li>
+                    <li class="active"><a href="PROGRAMS.html">Programs</a></li>
+                    <li><a href="FACULTY.html">Faculty & Staff</a></li>
+                    <li><a href="ANNOUNCEMENT.html">Announcements</a></li>
+                    <li><a href="CONTACT.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#registerModal">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="loginModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control"placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">College Registration</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="program">Select Program:</label>
+                            <select class="form-control" id="program">
+                                <option>Information Technology</option>
+                                <option>Business Administration</option>
+                                <option>Accountancy</option>
+                                <option>Criminology</option>
+                                <option>Elementary Education</option>
+                                <option>Secondary Education</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="banner">
+        <img src="image/PCNL.png">
+        <h1 style="color: black;">Academic Programs</h1>
+    </div>
+    
+    <div class="container">
+        <div class="content-section">
+            <h2>Programs Offered</h2>
+            <div class="program-box">
+                <div>
+                <h2>BSCRIM - Bachelor of Science in Criminology</h2>
+                <p>The Bachelor of Science in Criminology is a four-year degree program generally offered to students who are interested to pursue a career in law enforcement, correctional administration, security, and crime prevention. Students in this program will be able to learn different practices and theories of laws related to criminal behavior which leads to effective law enforcement.A graduate of this program is required to take and pass the Criminologist Licensure Examination to be considered a Criminologist.</p>
+                </div>
+                <img src="image/BSCRIM.png">
+            </div>
+            <div class="program-box">
+                <div>
+                <h2>BSIT - Bachelor of Science in Information Technology</h2>
+                <p>The Bachelor of Science in Information Technology is a computer-related program that prepares students on how to install, operate, develop, maintain, and administer computer applications. It also equips students with the basic ability to conceptualize, design, and implement software applications.This program is for students who are looking to have a career as an Applications Developer, Web Developer, Network Engineer, Web Administrator, Database Administrator, etc.</p>
+                </div>
+                <img src="image/BSIT.png">
+            </div>
+            <div class="program-box">
+                <div>
+                <h2>BSA - Bachelor of Science in Accountancy</h2>
+                <p>The Bachelor of Science in Accountancy is composed of subjects in financial, public, and managerial accounting, as well as audit, administration, business laws, and taxation. This program is more than just business subjects. Students will also take subjects about banking and finance, government, social services, and education. Information technology concepts are also integrated to create a more systematic and organized way of storing business data.This undergraduate program is suitable for students who are planning to take the licensure examinations and become a Certified Public Accountant (CPA).</p>
+                </div>
+                <img src="image/BSA.png">
+            </div>
+            <div class="program-box">
+                <div>
+                <h2>BSBA - Bachelor of Science in Business Administration</h2>
+                <p>The Bachelor of Science in Business Administration program is designed to provide students with familiarity in business operations. Students in this program will develop their critical decision-making skills for strategic and executive work which are required for competing in the global business world.This program can be taken with various specializations in management, marketing management, financial management, management accounting, business economics, etc. Also, this is suitable for students who have, or want to have the leadership skills necessary to have successful careers in managerial and supervisory positions.</p>
+                </div>
+                <img src="image/BSBA.png">
+            </div>
+            <div class="program-box">
+                <div>
+                <h2>BEE & BSE - Bachelor of Elementary Education</h2>
+                <p>The Bachelor of Elementary Education is a four-year degree program that combines theory and practice designed to prepare students for teaching in primary schools.</p>
+                <p>The Bachelor of Secondary Education is a four-year degree program that combines theory and practice designed to prepare students for teaching in secondary schools.</p>
+                </div>
+                <img src="image/BEE.png">
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2025 Philippine College Northwestern Luzon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
