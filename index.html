@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Philippine College of Northwestern Luzon</title>
+    <link rel="stylesheet" href="HOME.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="image/PCNL.png" style="height:30px; display:inline;"> Philippine College of Northwestern Luzon
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="ABOUTUS.html">About Us</a></li>
+                    <li><a href="PROGRAMS.html">Programs</a></li>
+                    <li><a href="FACULTY.html">Faculty & Staff</a></li>
+                    <li><a href="ANNOUNCEMENT.html">Announcements</a></li>
+                    <li><a href="CONTACT.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#registerModal">Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="loginModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control"placeholder="Enter your password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">College Registration</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="program">Select Program:</label>
+                            <select class="form-control" id="program">
+                                <option>Information Technology</option>
+                                <option>Business Administration</option>
+                                <option>Accountancy</option>
+                                <option>Criminology</option>
+                                <option>Elementary Education</option>
+                                <option>Secondary Education</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="banner">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="image/video.mp4" type="video/mp4">
+        </video>
+        <div class="banner-content">
+            <img src="image/PCNL.png">
+            <h1 style="color: black;">Welcome to the Philippine College of Northwestern Luzon</h1>
+            <p style="color: black;">Your gateway to a brighter future.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="intro">
+            <h2>About Philippine College of Northwestern Luzon</h2>
+            <p>We are delighted to have you here. As a hub of excellence in education, we strive to provide our students with a dynamic learning environment that inspires innovation, fosters growth, and cultivates lifelong learning. Whether you're a future student, parent, or visitor, explore our programs, meet our dedicated faculty, and join us on a journey to excellence.</p>
+            <button class="btn btn-default"><a href="ABOUTUS.html">Learn more</a></button>
+            
+            <div class="row">
+                <div class="col-sm-12 highlighttext" style="text-align: center;">
+                    <h2>Philippine College of Northwestern Luzon</h2>
+                    <p>Philippine College of Northwestern Luzon offers a world-class education with a focus on innovation, critical thinking, and global citizenship. Our campus supports holistic development for students of all ages.</p>
+              
+                <div class="feature">
+                    <h2 class="glyphicon glyphicon-education feature-icon"> Academic Excellence</h2 > 
+                    <p> Top-tier curriculum aligned with international standards.</p>
+                    
+                </div>
+                <div class="feature">
+                    <h2 class="glyphicon glyphicon-blackboard feature-icon"> Personalized Learning</h2 >
+                    <p>Tailored instruction to meet individual student needs.</p>
+                </div>
+                <div class="feature">
+                    <h2 class="glyphicon glyphicon-user feature-icon"> Experienced Instructors</h2 >
+                    <p>Highly qualified teachers/instructors dedicated to student success.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <footer class="text-center">
+        <p>&copy; 2025 Philippine College Northwestern Luzon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
