@@ -29,12 +29,15 @@ body {
     color: white;
 }
 
-.banner {
+.videoback{
     position: relative;
+    height: 400px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.background-video {
+.video{
     position: absolute;
     top: 0;
     left: 0;
@@ -42,26 +45,22 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    opacity: 0.8;
 }
-.banner-overlay {
+.videooverlay{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(173, 216, 230, 0.5);
-    z-index: 0;
-}
-.banner-content {
-    position: relative;
+    background-color: rgba(173, 216, 230, 0.8);
     z-index: 1;
-    color: #000;
 }
-.banner-content img{
-    max-width: 100px;
-    display: block;
-    margin: 0 auto;
+.videocontent{
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center
 }
 .intro {
     text-align: center;
